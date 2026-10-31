@@ -6,12 +6,12 @@ Author: ContainerKit Development
 Section: System
 Depends: firmware (>= 16.0), ldid
 Architecture: iphoneos-arm64e
-Version: 0.1.0-1-1793421331059626
+Version: 0.1.0-1-1793425562831678
 Installed-Size: 3824
-Filename: ./debs/com.containerkit.broker_0.1.0-1-1793421331059626_iphoneos-arm64e.deb
-Size: 1711062
-MD5sum: 0eab38a9397bc06c993f25a8d171dcd3
-SHA256: e04d6117fd2261189c6d1040c41c00bae83008176e85db69022db3accd4878f7
+Filename: ./debs/com.containerkit.broker_0.1.0-1-1793425562831678_iphoneos-arm64e.deb
+Size: 1711490
+MD5sum: 38b9217c243682d6ef993b5a62d68835
+SHA256: ccc041817a5f07d9cb7d78cd54400e9a3aac1005351a59189c45d9336e198a3d
 
 Package: com.containerkit.identity
 Name: ContainerKit Container Identity
@@ -21,12 +21,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
 Architecture: iphoneos-arm64e
-Version: 0.1.0-1-1793421361439195
+Version: 0.1.0-1-1793425597082351
 Installed-Size: 172
-Filename: ./debs/com.containerkit.identity_0.1.0-1-1793421361439195_iphoneos-arm64e.deb
-Size: 44616
-MD5sum: fa1d39034ec83a4e9da66466300c038a
-SHA256: 8c7178055a89400ef00521560ed169272c699a491a33a9b3908247aa7c169630
+Filename: ./debs/com.containerkit.identity_0.1.0-1-1793425597082351_iphoneos-arm64e.deb
+Size: 44612
+MD5sum: f14e8f58bad4a83aea5ca28fa9dfa6ae
+SHA256: af155bcfab923f222a652a7d342388cc2a2911135069ecdd3b4b5ed111e0c4ae
 
 Package: com.containerkit.keychain-owned
 Name: ContainerKit Owned Keychain Test
@@ -36,12 +36,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, com.containerkit.broker
 Architecture: iphoneos-arm64e
-Version: 0.1.0-1793421356055491+debug
+Version: 0.1.0-1793425590870542+debug
 Installed-Size: 272
-Filename: ./debs/com.containerkit.keychain-owned_0.1.0-1793421356055491+debug_iphoneos-arm64e-f2f199106977b93c.deb
-Size: 86546
-MD5sum: 99e7e87d615b4e00c3ec7162d1ce170f
-SHA256: f2f199106977b93cd239af89d68de5a0bb3a86225bcd7780824bafed7a063e23
+Filename: ./debs/com.containerkit.keychain-owned_0.1.0-1793425590870542+debug_iphoneos-arm64e-365667dade4ff5b5.deb
+Size: 86542
+MD5sum: d327a2f37e69686ef86155a274af0e1d
+SHA256: 365667dade4ff5b5882552a1da45fe7c64a95bda9da17957bbdd9a517a020fdb
 
 Package: com.containerkit.push
 Name: ContainerKit Per-Container Push
@@ -51,12 +51,12 @@ Author: ContainerKit Development
 Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit (>= 0.3.5), com.containerkit.broker (>= 0.1.0)
 Architecture: iphoneos-arm64e
-Version: 0.1.0-1793421364492889+debug
+Version: 0.1.0-1793425600293857+debug
 Installed-Size: 900
-Filename: ./debs/com.containerkit.push_0.1.0-1793421364492889+debug_iphoneos-arm64e.deb
-Size: 299754
-MD5sum: a59621a651f2eb439e2ab38d4fd6f2ff
-SHA256: 86d7ccfa4f7f7dd0c21741e2b7d0f4578983387bccbce8f4d7035a554b6bd8d9
+Filename: ./debs/com.containerkit.push_0.1.0-1793425600293857+debug_iphoneos-arm64e.deb
+Size: 299760
+MD5sum: b41efc78ea05754bc94afa3e33221900
+SHA256: ac9959264ed993d5300f682746a78ad4cad6f7cf9a344d9e877770f4b2f42fd6
 
 Package: com.containerkit.snapshot-route
 Name: ContainerKit Snapshot Route
@@ -66,12 +66,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
-Version: 0.1.0-1793421328763263+debug
+Version: 0.1.0-1793425559368969+debug
 Installed-Size: 144
-Filename: ./debs/com.containerkit.snapshot-route_0.1.0-1793421328763263+debug_iphoneos-arm64e.deb
-Size: 36622
-MD5sum: 11978317a537bebea974be5908c03ccc
-SHA256: f73d4f8fa8d120376be3629af594e4a130dc42dddbda25221b1cd58e54d17854
+Filename: ./debs/com.containerkit.snapshot-route_0.1.0-1793425559368969+debug_iphoneos-arm64e.deb
+Size: 36620
+MD5sum: 2b3ff0600580e7417e771c818bfd7b2c
+SHA256: bcdf11355c4d31861b73819be6d80714e7b412dae994b4c48a16c17b83aa13ef
 
 Package: com.containerkit.standalone-route
 Name: ContainerKit Standalone RunningBoard Route
@@ -81,12 +81,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4)
 Architecture: iphoneos-arm64e
-Version: 0.2.0-4-1793421313457685
+Version: 0.2.0-4-1793425540715747
 Installed-Size: 1316
-Filename: ./debs/com.containerkit.standalone-route_0.2.0-4-1793421313457685_iphoneos-arm64e.deb
-Size: 444740
-MD5sum: 9349d93d4ea3a8b53db85f78166fc5fb
-SHA256: e85ed4cdbf9ce0adbdc829232a21560630e3c0e5eea9b22f925d65b3c9110ff3
+Filename: ./debs/com.containerkit.standalone-route_0.2.0-4-1793425540715747_iphoneos-arm64e.deb
+Size: 444752
+MD5sum: 508667ea6685484781d0067b2306b92c
+SHA256: 3b84e21a4d85afdbb254da5ad255519b16dd5f43a6abd0b17ddaf51bde3bf3fc
 
 Package: com.containerkit.system-accounts
 Name: ContainerKit System Accounts
@@ -96,12 +96,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
 Architecture: iphoneos-arm64e
-Version: 0.1.0-1-1793421358304190+debug
+Version: 0.1.0-1-1793425593465436+debug
 Installed-Size: 992
-Filename: ./debs/com.containerkit.system-accounts_0.1.0-1-1793421358304190+debug_iphoneos-arm64e.deb
-Size: 345368
-MD5sum: c8e9f95a0464040e55b36bec8b36d574
-SHA256: 6de84605c1b9f00dd1a439632beac9e4ca6af20ab50efbd4835e0489bd190638
+Filename: ./debs/com.containerkit.system-accounts_0.1.0-1-1793425593465436+debug_iphoneos-arm64e.deb
+Size: 345366
+MD5sum: bb48fb6e5dc7e9662fcf0ef0db13ed50
+SHA256: 7eee6f98ef6fb7009f5fd04c349e038e95edaef602846eaeb913759314d52c31
 
 Package: com.containerkit
 Name: ContainerKit
@@ -111,26 +111,26 @@ Author: ContainerKit Development
 Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit.broker (>= 0.1.0), com.containerkit.standalone-route (>= 0.2.0)
 Architecture: iphoneos-arm64e
-Version: 0.3.5-1793421307670938
+Version: 0.3.5-1793425534319918
 Installed-Size: 7152
-Filename: ./debs/com.containerkit_0.3.5-1793421307670938_iphoneos-arm64e.deb
-Size: 2689048
-MD5sum: 04135caca8db4b0bf00d8bb5a178cc14
-SHA256: 230bf9873197b750639af7749650742a5471e00f202af1220f01caf655656f68
+Filename: ./debs/com.containerkit_0.3.5-1793425534319918_iphoneos-arm64e.deb
+Size: 2689044
+MD5sum: 2f19be4af625767cc29d18abc4bd28ae
+SHA256: 1334275efc23e6b33a8bfbccf89c3447ad706ca549c5aed0a00b7fcc169060b1
 
 Package: com.containerkit.all
 Name: ContainerKit (all)
-Version: 2026.10.31.1738
+Version: 2026.10.31.1849
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Maintainer: ContainerKit
 Author: ContainerKit
-Depends: com.containerkit.broker (= 0.1.0-1-1793421331059626), com.containerkit.identity (= 0.1.0-1-1793421361439195), com.containerkit.keychain-owned (= 0.1.0-1793421356055491+debug), com.containerkit.push (= 0.1.0-1793421364492889+debug), com.containerkit.snapshot-route (= 0.1.0-1793421328763263+debug), com.containerkit.standalone-route (= 0.2.0-4-1793421313457685), com.containerkit.system-accounts (= 0.1.0-1-1793421358304190+debug), com.containerkit (= 0.3.5-1793421307670938)
+Depends: com.containerkit.broker (= 0.1.0-1-1793425562831678), com.containerkit.identity (= 0.1.0-1-1793425597082351), com.containerkit.keychain-owned (= 0.1.0-1793425590870542+debug), com.containerkit.push (= 0.1.0-1793425600293857+debug), com.containerkit.snapshot-route (= 0.1.0-1793425559368969+debug), com.containerkit.standalone-route (= 0.2.0-4-1793425540715747), com.containerkit.system-accounts (= 0.1.0-1-1793425593465436+debug), com.containerkit (= 0.3.5-1793425534319918)
 Description: Installs the complete ContainerKit product set in one step.
 Filename: ./debs/com.containerkit.all_iphoneos-arm64e.deb
-Size: 680
-MD5sum: edb380bd9b00087ae328101c8c51741e
-SHA256: bba4a259daa6e2dd50951169194eb103f35b81e4d56c239bdbb7e8f7c7f509f2
+Size: 678
+MD5sum: dd2996fcd88b8d50ea643cd9d8b60e75
+SHA256: 24665dafd86ed8cff7aa8cbfc0cbd37038f67a841e8f8aac55db9ca670d9223b
 
 Package: com.containerkit.broker
 Name: ContainerKit Standalone Broker
@@ -140,12 +140,12 @@ Author: ContainerKit Development
 Section: System
 Depends: firmware (>= 16.0), ldid
 Architecture: iphoneos-arm64
-Version: 0.1.0-1-1793421433983585
+Version: 0.1.0-1-1793425682613147
 Installed-Size: 7372
-Filename: ./debs/com.containerkit.broker_0.1.0-1-1793421433983585_iphoneos-arm64.deb
-Size: 3279526
-MD5sum: 2d8fa2a2c72256eb3f6777ee23bb67be
-SHA256: fd1b55bcb9f5e84edf077d179eb178226f6b228ee5f916bc7e5462cf012e69df
+Filename: ./debs/com.containerkit.broker_0.1.0-1-1793425682613147_iphoneos-arm64.deb
+Size: 3279906
+MD5sum: 3383ff925db97db1227737e8c35161d7
+SHA256: 624d9331c412f326c340f610255d2984d295a86710113fa6e14dba6cd2c36e1e
 
 Package: com.containerkit.identity
 Name: ContainerKit Container Identity
@@ -155,12 +155,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
 Architecture: iphoneos-arm64
-Version: 0.1.0-1-1793421487143110
+Version: 0.1.0-1-1793425749258360
 Installed-Size: 364
-Filename: ./debs/com.containerkit.identity_0.1.0-1-1793421487143110_iphoneos-arm64.deb
-Size: 88856
-MD5sum: f0daf31b7fe4b9d23c81f028c1c56282
-SHA256: c68b0ed7fe8f603f91ed75c658e23eb9557b1b9f7465f25250989cf8033749db
+Filename: ./debs/com.containerkit.identity_0.1.0-1-1793425749258360_iphoneos-arm64.deb
+Size: 88854
+MD5sum: 5624d2bc87588a4d600601617bc0f424
+SHA256: da17e91d94caa0afd3b48b3a450a4c6712e2d7dc3705aeb4eea72da1f6379227
 
 Package: com.containerkit.keychain-owned
 Name: ContainerKit Owned Keychain Test
@@ -170,12 +170,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, com.containerkit.broker
 Architecture: iphoneos-arm64
-Version: 0.1.0-1793421479023658+debug
+Version: 0.1.0-1793425738896605+debug
 Installed-Size: 560
-Filename: ./debs/com.containerkit.keychain-owned_0.1.0-1793421479023658+debug_iphoneos-arm64-82d1f11c624f7a0b.deb
-Size: 171578
-MD5sum: dffe415aea653f8245f1f40635cd694e
-SHA256: 82d1f11c624f7a0b32d29bfebf43dba1be7425528a61625a4680b271da127785
+Filename: ./debs/com.containerkit.keychain-owned_0.1.0-1793425738896605+debug_iphoneos-arm64-a8af9b156535fd83.deb
+Size: 171582
+MD5sum: 45b401e0b9e868d452f2dd86d59e8161
+SHA256: a8af9b156535fd836819d4d5a4d2f375eea1e7e3855cec672b48e8d4e8c7b556
 
 Package: com.containerkit.push
 Name: ContainerKit Per-Container Push
@@ -185,12 +185,12 @@ Author: ContainerKit Development
 Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit (>= 0.3.5), com.containerkit.broker (>= 0.1.0)
 Architecture: iphoneos-arm64
-Version: 0.1.0-1793421491236941+debug
+Version: 0.1.0-1793425754065810+debug
 Installed-Size: 1828
-Filename: ./debs/com.containerkit.push_0.1.0-1793421491236941+debug_iphoneos-arm64.deb
-Size: 596558
-MD5sum: 0c8e563acd34053b03fd281674f98947
-SHA256: 1219dcdea191f51ae0808a88976148e1fd23e415ff9992b0205a5926a8103c32
+Filename: ./debs/com.containerkit.push_0.1.0-1793425754065810+debug_iphoneos-arm64.deb
+Size: 596578
+MD5sum: d55772510643c5e6b71cf84a7792d3e0
+SHA256: c5330a4f0a24e2d37121a48ffc397bc5852a7db01a4cfb02d8ca54f7cfae8a45
 
 Package: com.containerkit.snapshot-route
 Name: ContainerKit Snapshot Route
@@ -200,12 +200,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 0.1.0-1793421430971757+debug
+Version: 0.1.0-1793425679375188+debug
 Installed-Size: 304
-Filename: ./debs/com.containerkit.snapshot-route_0.1.0-1793421430971757+debug_iphoneos-arm64.deb
-Size: 72714
-MD5sum: b969b1352833366cbac98ac872d0e36d
-SHA256: f238b1be69fcdd5eb0cab9f3355edd26dcb0c22fbe7bcbe1f121190bcfb292bf
+Filename: ./debs/com.containerkit.snapshot-route_0.1.0-1793425679375188+debug_iphoneos-arm64.deb
+Size: 72706
+MD5sum: b8d580383f3f6aecd3df125dfafacdc0
+SHA256: 2faa849d0f5d7ce5b7031f98c09c4261f4ec77077915de9f215b7d3790b76289
 
 Package: com.containerkit.standalone-route
 Name: ContainerKit Standalone RunningBoard Route
@@ -215,12 +215,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4)
 Architecture: iphoneos-arm64
-Version: 0.2.0-4-1793421407166291
+Version: 0.2.0-4-1793425651486898
 Installed-Size: 2692
-Filename: ./debs/com.containerkit.standalone-route_0.2.0-4-1793421407166291_iphoneos-arm64.deb
-Size: 868786
-MD5sum: 2279d215c53f25759570489644284022
-SHA256: 300c6e2b1fe0a446b86a8ead6a07add00845929150381f9f3ce321721a4f5314
+Filename: ./debs/com.containerkit.standalone-route_0.2.0-4-1793425651486898_iphoneos-arm64.deb
+Size: 868790
+MD5sum: 37afc9005dfd629fa8af23e22456e6ca
+SHA256: 85c0463e5f30ffff319e02feddf365f853caf08971be835ae2e3f38c9a06623a
 
 Package: com.containerkit.system-accounts
 Name: ContainerKit System Accounts
@@ -230,12 +230,12 @@ Author: ContainerKit
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
 Architecture: iphoneos-arm64
-Version: 0.1.0-1-1793421482081125+debug
+Version: 0.1.0-1-1793425743587433+debug
 Installed-Size: 2016
-Filename: ./debs/com.containerkit.system-accounts_0.1.0-1-1793421482081125+debug_iphoneos-arm64.deb
+Filename: ./debs/com.containerkit.system-accounts_0.1.0-1-1793425743587433+debug_iphoneos-arm64.deb
 Size: 692196
-MD5sum: ee82fdd4754823a730b71debcc9d6976
-SHA256: 2555b77f725c123f1dc1222e3bc0cf6580863a2de6347ae0a7b9ce6e88de9297
+MD5sum: 99827155d81ad203fd491d6cbb130ca1
+SHA256: 11183c90a893e34e45f30dddd7136ddcf74c7c3ebbdb9939b60b1c76e1df296a
 
 Package: com.containerkit
 Name: ContainerKit
@@ -245,23 +245,23 @@ Author: ContainerKit Development
 Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit.broker (>= 0.1.0), com.containerkit.standalone-route (>= 0.2.0)
 Architecture: iphoneos-arm64
-Version: 0.3.5-1793421401331859
+Version: 0.3.5-1793425645016606
 Installed-Size: 7136
-Filename: ./debs/com.containerkit_0.3.5-1793421401331859_iphoneos-arm64.deb
-Size: 2686642
-MD5sum: 8cdb29697148f522fb4306214284fc82
-SHA256: c8808196264feb061ea54e26e0a72b61be6d7e02a17758f9cb3a33c2ba4bce3a
+Filename: ./debs/com.containerkit_0.3.5-1793425645016606_iphoneos-arm64.deb
+Size: 2686652
+MD5sum: 09119c1ec08e826fc868b75fb9b51418
+SHA256: d93c1f29722a3e348547059c4bb833a8c02ea72c244e8a970a1ba69dd5b07389
 
 Package: com.containerkit.all
 Name: ContainerKit (all)
-Version: 2026.10.31.1738
+Version: 2026.10.31.1849
 Architecture: iphoneos-arm64
 Section: Tweaks
 Maintainer: ContainerKit
 Author: ContainerKit
-Depends: com.containerkit.broker (= 0.1.0-1-1793421433983585), com.containerkit.identity (= 0.1.0-1-1793421487143110), com.containerkit.keychain-owned (= 0.1.0-1793421479023658+debug), com.containerkit.push (= 0.1.0-1793421491236941+debug), com.containerkit.snapshot-route (= 0.1.0-1793421430971757+debug), com.containerkit.standalone-route (= 0.2.0-4-1793421407166291), com.containerkit.system-accounts (= 0.1.0-1-1793421482081125+debug), com.containerkit (= 0.3.5-1793421401331859)
+Depends: com.containerkit.broker (= 0.1.0-1-1793425682613147), com.containerkit.identity (= 0.1.0-1-1793425749258360), com.containerkit.keychain-owned (= 0.1.0-1793425738896605+debug), com.containerkit.push (= 0.1.0-1793425754065810+debug), com.containerkit.snapshot-route (= 0.1.0-1793425679375188+debug), com.containerkit.standalone-route (= 0.2.0-4-1793425651486898), com.containerkit.system-accounts (= 0.1.0-1-1793425743587433+debug), com.containerkit (= 0.3.5-1793425645016606)
 Description: Installs the complete ContainerKit product set in one step.
 Filename: ./debs/com.containerkit.all_iphoneos-arm64.deb
-Size: 676
-MD5sum: 028e11277a7a6f253b4f40f35199bc17
-SHA256: a99aeeb5b79e08426bfa7b9513c20db9db08c4fe0a6d1b8c89a18d3cca463cd6
+Size: 678
+MD5sum: 14011b8044468fdd5b7ec383999e688b
+SHA256: 9b8e261c9431f24d5820cca853917ed776678e985ebbf21f6233ffb30bc597ba
