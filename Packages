@@ -1,0 +1,267 @@
+Package: com.containerkit.broker
+Name: ContainerKit Standalone Broker
+Description: Privileged broker for standalone app-private container routes; required-surface proofs remain experimental.
+Maintainer: ContainerKit Development
+Author: ContainerKit Development
+Section: System
+Depends: firmware (>= 16.0), ldid
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1-1793372890017489
+Installed-Size: 3808
+Filename: ./debs/com.containerkit.broker_0.1.0-1-1793372890017489_iphoneos-arm64e.deb
+Size: 1697196
+MD5sum: 259814fa2d74938c735e1294c933c037
+SHA256: 4a756161aa92b6af6fea4b69e1ac2df5f196d15e62a604610cca65e869e4dfae
+
+Package: com.containerkit.identity
+Name: ContainerKit Container Identity
+Description: Broker-authenticated IDFV adapter for trusted managed application families.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1-1793372920957605
+Installed-Size: 172
+Filename: ./debs/com.containerkit.identity_0.1.0-1-1793372920957605_iphoneos-arm64e.deb
+Size: 44616
+MD5sum: 6fade8bc7a773fe304c3a672b856fcd5
+SHA256: e2eef5e5bae964898a081fbcb05ab6883e7642412505d4ae271845f2d4675958
+
+Package: com.containerkit.keychain-owned
+Name: ContainerKit Owned Keychain Test
+Description: Explicit root-configured owned-app securityd test; disabled without configuration.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, com.containerkit.broker
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1793372915456697+debug
+Installed-Size: 272
+Filename: ./debs/com.containerkit.keychain-owned_0.1.0-1793372915456697+debug_iphoneos-arm64e-0c4170ef5c56351c.deb
+Size: 86548
+MD5sum: 2268ff71d3d18614196e830363939df6
+SHA256: 0c4170ef5c56351ccb5954897e00561623867487bb384ca1bd3d257731e163e9
+
+Package: com.containerkit.push
+Name: ContainerKit Per-Container Push
+Description: Optional native per-container APNs registrations and alert source routing; device acceptance pending.
+Maintainer: ContainerKit Development
+Author: ContainerKit Development
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit (>= 0.3.5), com.containerkit.broker (>= 0.1.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1793372923862855+debug
+Installed-Size: 900
+Filename: ./debs/com.containerkit.push_0.1.0-1793372923862855+debug_iphoneos-arm64e.deb
+Size: 299756
+MD5sum: 6167bb79fd6d63fbf33b3a4f807fe7ef
+SHA256: 072f66dc131acbeb9547b79bcc40bbbdf6505889c8703a04e87ba760bd78096f
+
+Package: com.containerkit.snapshot-route
+Name: ContainerKit Snapshot Route
+Description: Per-container native snapshot images and manifest routing on reviewed 20F75 and 20G75 images.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1793372887751615+debug
+Installed-Size: 144
+Filename: ./debs/com.containerkit.snapshot-route_0.1.0-1793372887751615+debug_iphoneos-arm64e.deb
+Size: 36618
+MD5sum: 42e8e9b90df086ed95c60233836598ce
+SHA256: c0cbdf7aaba1141c625ba54b627cc222280e8d5cf0804ddb95a2827ae6bcf2f9
+
+Package: com.containerkit.standalone-route
+Name: ContainerKit Standalone RunningBoard Route
+Description: Broker-gated RunningBoard route consumer and authenticated per-app route runtime with fail-closed group binding.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4)
+Architecture: iphoneos-arm64e
+Version: 0.2.0-4-1793372872898758
+Installed-Size: 1316
+Filename: ./debs/com.containerkit.standalone-route_0.2.0-4-1793372872898758_iphoneos-arm64e.deb
+Size: 444758
+MD5sum: e6d55b84478e1d64b919cd9fa0e0254e
+SHA256: 686ca6897162a4a35540661064c05d24740a325f2269c8f78b2739218baae0e1
+
+Package: com.containerkit.system-accounts
+Name: ContainerKit System Accounts
+Description: Native Accounts store adapter for Broker-enrolled application families on reviewed 20F75 and 20G75 images.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1-1793372917707414+debug
+Installed-Size: 992
+Filename: ./debs/com.containerkit.system-accounts_0.1.0-1-1793372917707414+debug_iphoneos-arm64e.deb
+Size: 345362
+MD5sum: e18d1df8cccf404e5ed589048e14a1d6
+SHA256: 25ef7c19ea8dcff11659c632358b836cbd288b8137d04ca293c2d171f233268d
+
+Package: com.containerkit
+Name: ContainerKit
+Description: Container manager and launch chooser; managed app isolation remains unverified.
+Maintainer: ContainerKit Development
+Author: ContainerKit Development
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit.broker (>= 0.1.0), com.containerkit.standalone-route (>= 0.2.0)
+Architecture: iphoneos-arm64e
+Version: 0.3.5-1793372867464712
+Installed-Size: 7104
+Filename: ./debs/com.containerkit_0.3.5-1793372867464712_iphoneos-arm64e.deb
+Size: 2667000
+MD5sum: 12e263a8c273560c6390b9e676cb7274
+SHA256: f8b21e98cf8dff64361e3f0bf52797565d2e558f821ffbbdab6183515cc3210e
+
+Package: com.containerkit.all
+Name: ContainerKit (all)
+Version: 2026.10.31.0416
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: ContainerKit
+Author: ContainerKit
+Depends: com.containerkit.broker (= 0.1.0-1-1793372890017489), com.containerkit.identity (= 0.1.0-1-1793372920957605), com.containerkit.keychain-owned (= 0.1.0-1793372915456697+debug), com.containerkit.push (= 0.1.0-1793372923862855+debug), com.containerkit.snapshot-route (= 0.1.0-1793372887751615+debug), com.containerkit.standalone-route (= 0.2.0-4-1793372872898758), com.containerkit.system-accounts (= 0.1.0-1-1793372917707414+debug), com.containerkit (= 0.3.5-1793372867464712)
+Description: Installs the complete ContainerKit product set in one step.
+Filename: ./debs/com.containerkit.all_iphoneos-arm64e.deb
+Size: 680
+MD5sum: 26ed3c6cff0c74b757cd82ed3e316b05
+SHA256: a6a4d54437e2789d1a5ff00169b0816efc64e3b6f7bc31375bc478b246cf0c84
+
+Package: com.containerkit.broker
+Name: ContainerKit Standalone Broker
+Description: Privileged broker for standalone app-private container routes; required-surface proofs remain experimental.
+Maintainer: ContainerKit Development
+Author: ContainerKit Development
+Section: System
+Depends: firmware (>= 16.0), ldid
+Architecture: iphoneos-arm64
+Version: 0.1.0-1-1793373012450825
+Installed-Size: 7340
+Filename: ./debs/com.containerkit.broker_0.1.0-1-1793373012450825_iphoneos-arm64.deb
+Size: 3252788
+MD5sum: 6bfecf59742b8ca464179f8477674427
+SHA256: 037646185703cec83c1e92fa723790187fc7b67a9deb70a64613da4abafe2f45
+
+Package: com.containerkit.identity
+Name: ContainerKit Container Identity
+Description: Broker-authenticated IDFV adapter for trusted managed application families.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
+Architecture: iphoneos-arm64
+Version: 0.1.0-1-1793373067077349
+Installed-Size: 364
+Filename: ./debs/com.containerkit.identity_0.1.0-1-1793373067077349_iphoneos-arm64.deb
+Size: 88856
+MD5sum: 015fcdcb6eb6db32dcb1d3e16e39ed18
+SHA256: 1134fe691f18080f720d6850ed847b9e39fc18160b634c0570d7b02783cf03bc
+
+Package: com.containerkit.keychain-owned
+Name: ContainerKit Owned Keychain Test
+Description: Explicit root-configured owned-app securityd test; disabled without configuration.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, com.containerkit.broker
+Architecture: iphoneos-arm64
+Version: 0.1.0-1793373056794724+debug
+Installed-Size: 560
+Filename: ./debs/com.containerkit.keychain-owned_0.1.0-1793373056794724+debug_iphoneos-arm64-65cf44a9b59e151c.deb
+Size: 171582
+MD5sum: f879cfb640ed1755c9cebcba16c3e603
+SHA256: 65cf44a9b59e151c18646b4bccc8a1d656e226f6eba768fe24252a9d75047710
+
+Package: com.containerkit.push
+Name: ContainerKit Per-Container Push
+Description: Optional native per-container APNs registrations and alert source routing; device acceptance pending.
+Maintainer: ContainerKit Development
+Author: ContainerKit Development
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit (>= 0.3.5), com.containerkit.broker (>= 0.1.0)
+Architecture: iphoneos-arm64
+Version: 0.1.0-1793373074343320+debug
+Installed-Size: 1828
+Filename: ./debs/com.containerkit.push_0.1.0-1793373074343320+debug_iphoneos-arm64.deb
+Size: 596570
+MD5sum: 578aadd22c299f03de5e1edf3b1616fe
+SHA256: b0b9f8634806255fa64bd0c9725e9a3dee76c363cab1326fd2a2f2d46a8ec54b
+
+Package: com.containerkit.snapshot-route
+Name: ContainerKit Snapshot Route
+Description: Per-container native snapshot images and manifest routing on reviewed 20F75 and 20G75 images.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.1.0-1793373008446092+debug
+Installed-Size: 304
+Filename: ./debs/com.containerkit.snapshot-route_0.1.0-1793373008446092+debug_iphoneos-arm64.deb
+Size: 72710
+MD5sum: 322ceb8a0d570822c2786e27063ae357
+SHA256: ff35a584f0fe12f7abf05cc70b5f3e02f35e7cce7d29f3535d77c1e5668e931f
+
+Package: com.containerkit.standalone-route
+Name: ContainerKit Standalone RunningBoard Route
+Description: Broker-gated RunningBoard route consumer and authenticated per-app route runtime with fail-closed group binding.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4)
+Architecture: iphoneos-arm64
+Version: 0.2.0-4-1793372976982324
+Installed-Size: 2692
+Filename: ./debs/com.containerkit.standalone-route_0.2.0-4-1793372976982324_iphoneos-arm64.deb
+Size: 868796
+MD5sum: 7d00ff9d33579b8209b3818c5242d224
+SHA256: eafcb7a0ab3cadea636ac38400d28e93cbbc6c9b75868bf2df495744ff1b4f42
+
+Package: com.containerkit.system-accounts
+Name: ContainerKit System Accounts
+Description: Native Accounts store adapter for Broker-enrolled application families on reviewed 20F75 and 20G75 images.
+Maintainer: ContainerKit
+Author: ContainerKit
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy (>= 1.1.6-4), com.containerkit.broker
+Architecture: iphoneos-arm64
+Version: 0.1.0-1-1793373060330488+debug
+Installed-Size: 2016
+Filename: ./debs/com.containerkit.system-accounts_0.1.0-1-1793373060330488+debug_iphoneos-arm64.deb
+Size: 692202
+MD5sum: f0aec06569c9bcbcd7b13132d6df53f1
+SHA256: f738c9d7362d6294f9298db57051ed10ce239beb39a5ccae681dff18f861164e
+
+Package: com.containerkit
+Name: ContainerKit
+Description: Container manager and launch chooser; managed app isolation remains unverified.
+Maintainer: ContainerKit Development
+Author: ContainerKit Development
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, com.containerkit.broker (>= 0.1.0), com.containerkit.standalone-route (>= 0.2.0)
+Architecture: iphoneos-arm64
+Version: 0.3.5-1793372967755952
+Installed-Size: 7104
+Filename: ./debs/com.containerkit_0.3.5-1793372967755952_iphoneos-arm64.deb
+Size: 2664652
+MD5sum: 2b4712fa1a1ab3dbd31bee1825e68e78
+SHA256: 5b558b45afedc4af2d9fa1b2237139b032d4c942e64bd556c0a5fce040da8911
+
+Package: com.containerkit.all
+Name: ContainerKit (all)
+Version: 2026.10.31.0416
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: ContainerKit
+Author: ContainerKit
+Depends: com.containerkit.broker (= 0.1.0-1-1793373012450825), com.containerkit.identity (= 0.1.0-1-1793373067077349), com.containerkit.keychain-owned (= 0.1.0-1793373056794724+debug), com.containerkit.push (= 0.1.0-1793373074343320+debug), com.containerkit.snapshot-route (= 0.1.0-1793373008446092+debug), com.containerkit.standalone-route (= 0.2.0-4-1793372976982324), com.containerkit.system-accounts (= 0.1.0-1-1793373060330488+debug), com.containerkit (= 0.3.5-1793372967755952)
+Description: Installs the complete ContainerKit product set in one step.
+Filename: ./debs/com.containerkit.all_iphoneos-arm64.deb
+Size: 678
+MD5sum: d49e6c588e68590d44490ee9d95ffd90
+SHA256: 11b6bbbdfe43dbd0606f38600793acc02319c381281853cda6cb5318b37a9126

@@ -1,0 +1,11 @@
+Origin: ContainerKit
+Label: ContainerKit
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: ContainerKit test builds
+SHA256:
+ ff9b7b2d43ed3f9a611663052e8283e25bec62a2a09ba042a1658972dd5e0c30 12032 Packages
+ 990467b13b411375b0610e6b55afd9bd1e5d8af553a700668225b4eb1716eb71 2728 Packages.gz
