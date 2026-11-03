@@ -1,0 +1,205 @@
+{
+  "schema": "containerkit.sileo-release.v1",
+  "version": "2026.11.04.0252",
+  "sourceCommit": "a46a3a3339722cc7a950524b23bc870747a15bd5",
+  "sourceRepository": "https://github.com/Timeyangzai/ContainerKit",
+  "sourceBehaviorValidatedAt": "5977fa3",
+  "scope": {
+    "roothide": {
+      "corePackages": 10,
+      "optionalLibraries": [
+        "xr-20g75-roothide",
+        "iphone15,3-20f75-roothide"
+      ],
+      "defaultOptionalActivation": false
+    },
+    "rootless": {
+      "corePackages": 10,
+      "optionalLibraries": [],
+      "deviceValidated": false
+    }
+  },
+  "indexSHA256": {
+    "Packages": "e29449fcdb3f8bd6378e32a664a41638231564b0b1a1e57900411a7dae7f2326",
+    "Packages.gz": "a9fafc63a030531b191181368525c0ed19e31732d3d3522c3935de38b3c88508"
+  },
+  "packages": [
+    {
+      "Package": "com.containerkit.broker",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.1-1-1793713439190819",
+      "Filename": "./debs/com.containerkit.broker_0.1.1-1-1793713439190819_iphoneos-arm64e.deb",
+      "SHA256": "21739ea461941c2ad49de46cc95a5b16d8f8f558f552d091bb524d67ae1e68a3",
+      "Size": "2190298"
+    },
+    {
+      "Package": "com.containerkit.carrier-isolation",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1-1793713465850331",
+      "Filename": "./debs/com.containerkit.carrier-isolation_0.1.0-1-1793713465850331_iphoneos-arm64e.deb",
+      "SHA256": "bf72d1a129e5c7e759b8929da5948e487ac63e8d1971ff7be870bd32a8106586",
+      "Size": "26674"
+    },
+    {
+      "Package": "com.containerkit.contacts-isolation",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1-1793713456917775",
+      "Filename": "./debs/com.containerkit.contacts-isolation_0.1.0-1-1793713456917775_iphoneos-arm64e.deb",
+      "SHA256": "ee40e0eea594c3f9d6afefb57df69dcc18c7e3eb5518f28b0cbd206d3ab7ab10",
+      "Size": "27270"
+    },
+    {
+      "Package": "com.containerkit.identity",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1-1793713497838774",
+      "Filename": "./debs/com.containerkit.identity_0.1.0-1-1793713497838774_iphoneos-arm64e.deb",
+      "SHA256": "10aaa31ffcf2d1b6b2b2c820588ba42578f249898a588f94312e7eac2b89ff6d",
+      "Size": "95210"
+    },
+    {
+      "Package": "com.containerkit.keychain-owned",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1793713475590794+debug",
+      "Filename": "./debs/com.containerkit.keychain-owned_0.1.0-1793713475590794+debug_iphoneos-arm64e-c484e9521caadb0b.deb",
+      "SHA256": "c484e9521caadb0be4c14dac510dbbb3654c19f30b4e516aa413bc1a255b35b2",
+      "Size": "87562"
+    },
+    {
+      "Package": "com.containerkit.push",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1793713512074326+debug",
+      "Filename": "./debs/com.containerkit.push_0.1.0-1793713512074326+debug_iphoneos-arm64e.deb",
+      "SHA256": "57b3351e1d51e96cf2f04b09725f386d5a334eb1caf6e6e5294f075736fda3b0",
+      "Size": "302088"
+    },
+    {
+      "Package": "com.containerkit.snapshot-route",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1793713436327861+debug",
+      "Filename": "./debs/com.containerkit.snapshot-route_0.1.0-1793713436327861+debug_iphoneos-arm64e.deb",
+      "SHA256": "a94ccf06214f2aeb2497432d089b10440488147de58d13a89ce9c6e62bfc606f",
+      "Size": "36620"
+    },
+    {
+      "Package": "com.containerkit.standalone-route",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.2.0-4-1793713422803116",
+      "Filename": "./debs/com.containerkit.standalone-route_0.2.0-4-1793713422803116_iphoneos-arm64e.deb",
+      "SHA256": "ad35aa3c9822beeb46f7bef42f05f68fa86e43d7a3ee7f450156fce7c6725497",
+      "Size": "453004"
+    },
+    {
+      "Package": "com.containerkit.system-accounts",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.1.0-1-1793713484832906+debug",
+      "Filename": "./debs/com.containerkit.system-accounts_0.1.0-1-1793713484832906+debug_iphoneos-arm64e.deb",
+      "SHA256": "4da35ac4dfe47b1471e8750329e44c2741cb14db847c5c19b090a1c26f67b407",
+      "Size": "426150"
+    },
+    {
+      "Package": "com.containerkit",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "0.3.5-1793713416462262",
+      "Filename": "./debs/com.containerkit_0.3.5-1793713416462262_iphoneos-arm64e.deb",
+      "SHA256": "5c8817e7b81c512904cd6fcfc8b5368e17e28175adc3e6701172a87c2d70be1b",
+      "Size": "3083260"
+    },
+    {
+      "Package": "com.containerkit.all",
+      "Architecture": "iphoneos-arm64e",
+      "Version": "2026.11.04.0252",
+      "Filename": "./debs/com.containerkit.all_2026.11.04.0252_iphoneos-arm64e.deb",
+      "SHA256": "52d078b7c0485aa803fc1d771edf1b7dcc0fc727567c4383d3d0d2b4adac9629",
+      "Size": "714"
+    },
+    {
+      "Package": "com.containerkit.broker",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.1-1-1793713770921377",
+      "Filename": "./debs/com.containerkit.broker_0.1.1-1-1793713770921377_iphoneos-arm64.deb",
+      "SHA256": "7b4e98a14ebad78c997d56b54ad52043d8b391e874f2beaf4d28ddf654c82e6c",
+      "Size": "3670784"
+    },
+    {
+      "Package": "com.containerkit.carrier-isolation",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1-1793713857019569",
+      "Filename": "./debs/com.containerkit.carrier-isolation_0.1.0-1-1793713857019569_iphoneos-arm64.deb",
+      "SHA256": "ac835da87869c93bbceb3d1399999bf3fdd39e072e5be92c14f72c59834c2fcb",
+      "Size": "53540"
+    },
+    {
+      "Package": "com.containerkit.contacts-isolation",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1-1793713843841160",
+      "Filename": "./debs/com.containerkit.contacts-isolation_0.1.0-1-1793713843841160_iphoneos-arm64.deb",
+      "SHA256": "19e0be43f70a66e0bc5619628059862eef2a9cf1509e4583a232e03544ef14f8",
+      "Size": "54920"
+    },
+    {
+      "Package": "com.containerkit.identity",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1-1793713892870932",
+      "Filename": "./debs/com.containerkit.identity_0.1.0-1-1793713892870932_iphoneos-arm64.deb",
+      "SHA256": "0dcef53339993d6de3a34527e54ee690e34746d7f63045ba77f1706158a9eb91",
+      "Size": "189622"
+    },
+    {
+      "Package": "com.containerkit.keychain-owned",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1793713867818142+debug",
+      "Filename": "./debs/com.containerkit.keychain-owned_0.1.0-1793713867818142+debug_iphoneos-arm64-8e2d113e6a078eda.deb",
+      "SHA256": "8e2d113e6a078eda1a550ac8b4ffcbdb6c63c105ce00d46d7c33f763f4016ac4",
+      "Size": "173714"
+    },
+    {
+      "Package": "com.containerkit.push",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1793713906206970+debug",
+      "Filename": "./debs/com.containerkit.push_0.1.0-1793713906206970+debug_iphoneos-arm64.deb",
+      "SHA256": "c5a5c8853847a82cd0bbee523b9f96105519c98f8fb6f00ffadc3ab87ad435db",
+      "Size": "601296"
+    },
+    {
+      "Package": "com.containerkit.snapshot-route",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1793713757990935+debug",
+      "Filename": "./debs/com.containerkit.snapshot-route_0.1.0-1793713757990935+debug_iphoneos-arm64.deb",
+      "SHA256": "3613169792faddd2277085ac86deb84f76d24fdb5a4bd315ac456155da9237cf",
+      "Size": "72730"
+    },
+    {
+      "Package": "com.containerkit.standalone-route",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.2.0-4-1793713698040333",
+      "Filename": "./debs/com.containerkit.standalone-route_0.2.0-4-1793713698040333_iphoneos-arm64.deb",
+      "SHA256": "3acb601b7fb11ef701c4ce6ba8ae3a3139471ebe467d634e20d62cba88823a3f",
+      "Size": "882752"
+    },
+    {
+      "Package": "com.containerkit.system-accounts",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.1.0-1-1793713877924545+debug",
+      "Filename": "./debs/com.containerkit.system-accounts_0.1.0-1-1793713877924545+debug_iphoneos-arm64.deb",
+      "SHA256": "264fd5c94982fd70c8f2f3581a45164966224ed3ae1c0c1445e307754839187a",
+      "Size": "855308"
+    },
+    {
+      "Package": "com.containerkit",
+      "Architecture": "iphoneos-arm64",
+      "Version": "0.3.5-1793713680541008",
+      "Filename": "./debs/com.containerkit_0.3.5-1793713680541008_iphoneos-arm64.deb",
+      "SHA256": "6b3a52a2929aefd246db18707ad2786423a0e8ecc2ef227c303b4cad995eb0d6",
+      "Size": "3079312"
+    },
+    {
+      "Package": "com.containerkit.all",
+      "Architecture": "iphoneos-arm64",
+      "Version": "2026.11.04.0252",
+      "Filename": "./debs/com.containerkit.all_2026.11.04.0252_iphoneos-arm64.deb",
+      "SHA256": "4e96263aa862ee1ffd53965fda1ffe53d553552e8f90771056b6bb26fda207d7",
+      "Size": "714"
+    }
+  ],
+  "deviceInstallPerformedByThisPublication": false
+}
